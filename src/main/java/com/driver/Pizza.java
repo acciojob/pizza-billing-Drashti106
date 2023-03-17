@@ -16,10 +16,10 @@ public class Pizza {
         }
 
         else{
-            price+=400;
+            price=400;
             toppingPrice = 120;
         }
-        bill = "Base Price Of The Pizza: 300 \n";
+        bill = "Base Price Of The Pizza: "+price+"\n";
         totalPrice = price;
         cheesePrice = 80;
         paperBegPrice = 20;
