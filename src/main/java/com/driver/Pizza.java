@@ -61,13 +61,13 @@ public class Pizza {
         // your code goes here
         if(!billGen){
             if(extraCheese){
-                bill += "Extra Cheese Added: 80 \n";
+                bill += "Extra Cheese Added: "+cheesePrice+"\n";
             }
             if(extraTopping){
                 bill += "Extra Toppings Added: "+toppingPrice+"\n";
             }
             if(paperBeg){
-                bill += "Paperbag Added: 20 \n";
+                bill += "Paperbag Added: "+paperBegPrice+"\n";
             }
             bill += "Total Price: " + totalPrice;
             billGen = true;
