@@ -9,13 +9,11 @@ public class Pizza {
     private int paperBegPrice;
     private int totalPrice;
     boolean extraCheese, extraTopping, paperBeg,billGen;
-    public Pizza(Boolean isVeg){
+    public Pizza(Boolean isVeg){//here in contructor we will iniialize
         if(isVeg){
             price=300;
             toppingPrice = 70;
-        }
-
-        else{
+        }else{
             price=400;
             toppingPrice = 120;
         }
@@ -30,6 +28,7 @@ public class Pizza {
     }
 
     public int getPrice(){
+
         return totalPrice;
     }
 
