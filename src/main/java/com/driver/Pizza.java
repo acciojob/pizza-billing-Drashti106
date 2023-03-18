@@ -3,7 +3,7 @@ package com.driver;
 public class Pizza {
 
     private int price;
-    private String bill;
+    public String bill;
     private int cheesePrice;
     private int toppingPrice;
     private int paperBegPrice;
@@ -68,7 +68,7 @@ public class Pizza {
             if(paperBeg){
                 bill += "Paperbag Added: "+paperBegPrice+"\n";
             }
-            bill += "Total Price: " + totalPrice;
+            bill += "Total Price: " + totalPrice+"\n";
             billGen = true;
         }
         return bill;
